@@ -49,7 +49,7 @@ setLanguage(localStorage.getItem("lang") || "en");
 if (copyBtn) {
   copyBtn.addEventListener("click", e => {
     e.preventDefault();
-    navigator.clipboard.writeText("https://tonsite.com");
+    navigator.clipboard.writeText("https://outfitlyy.github.io/outfitlyy-site/");
     toggle.checked = false;
   });
 }
